@@ -1,0 +1,14 @@
+---
+title: "Data Creation"
+output: pdf_document
+date: "`r Sys.Date()`"
+---
+
+```{r}
+
+
+library(tidyverse)
+
+read_csv("data/adult_obesity.csv")
+```
+
